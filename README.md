@@ -1,4 +1,4 @@
-# Sl0ptiminer
+<p align="center"><img src="banner.png" width="1280" alt="Sl0ptiminer. Optimized for your mining pleasure."></p>
 
 **No public build yet.**
 
