@@ -1,6 +1,6 @@
 <p align="center"><img src="banner.png" width="1280" alt="Sl0ptiminer. Optimized for your mining pleasure."></p>
 
-**No public build yet.**
+**Current version 0.8.3**, released 2026-11-22. [What changed](https://sl0ptiminer.com/releases/#v0-8-3)
 
 Sl0ptiminer is a cryptocurrency miner. It mines Hoohash for Hoosat (HTN), on x86-64 processors, 64-bit ARM processors and NVIDIA graphics cards. Systems: Linux, macOS and HiveOS. This repository holds its signed release packages, the same files as on the official site, https://sl0ptiminer.com. Use it if the site cannot be reached. Sl0ptiminer is closed source and paid for by a [developer fee](https://sl0ptiminer.com/wiki/fee/).
 
@@ -8,12 +8,12 @@ Sl0ptiminer is a cryptocurrency miner. It mines Hoohash for Hoosat (HTN), on x86
 
 | System | Needs | Package | Guide |
 |---|---|---|---|
-| Linux | x86-64 with AVX2, FMA and BMI2 · glibc 2.31 or newer · also mines on NVIDIA cards | Comes in a following release | [Linux guide](https://sl0ptiminer.com/guides/linux/) |
+| Linux | x86-64 with AVX2, FMA and BMI2 · glibc 2.31 or newer · also mines on NVIDIA cards | [`sloptiminer-0.8.3-linux-x86_64-gnu.tar.gz`](https://github.com/sl0ptiminer/sl0ptiminer/releases/download/v0.8.3/sloptiminer-0.8.3-linux-x86_64-gnu.tar.gz) · 5.1 MB | [Linux guide](https://sl0ptiminer.com/guides/linux/) |
 | Linux, older systems | x86-64 with AVX2, FMA and BMI2 · any Linux · CPU only | Comes in a following release | [Linux guide](https://sl0ptiminer.com/guides/linux/) |
-| Linux on ARM | 64-bit ARM · glibc 2.31 or newer · also mines on NVIDIA cards | Comes in a following release | [Linux guide](https://sl0ptiminer.com/guides/linux/) |
-| Linux on ARM, older systems | 64-bit ARM · any Linux · CPU only | Comes in a following release | [Linux guide](https://sl0ptiminer.com/guides/linux/) |
+| Linux on ARM | 64-bit ARM · glibc 2.31 or newer · also mines on NVIDIA cards | [`sloptiminer-0.8.3-linux-aarch64-gnu.tar.gz`](https://github.com/sl0ptiminer/sl0ptiminer/releases/download/v0.8.3/sloptiminer-0.8.3-linux-aarch64-gnu.tar.gz) · 4.9 MB | [Linux guide](https://sl0ptiminer.com/guides/linux/) |
+| Linux on ARM, older systems | 64-bit ARM · any Linux · CPU only | [`sloptiminer-0.8.3-linux-aarch64.tar.gz`](https://github.com/sl0ptiminer/sl0ptiminer/releases/download/v0.8.3/sloptiminer-0.8.3-linux-aarch64.tar.gz) · 4.9 MB | [Linux guide](https://sl0ptiminer.com/guides/linux/) |
 | macOS | Macs with Apple silicon · CPU only | Comes in a following release | [macOS page](https://sl0ptiminer.com/guides/mac/) |
-| HiveOS | custom miner package | Comes with the first release | [HiveOS guide](https://sl0ptiminer.com/guides/hiveos/) |
+| HiveOS | custom miner package | [`sl0ptiminer-0.8.3.tar.gz`](https://github.com/sl0ptiminer/sl0ptiminer/releases/download/v0.8.3/sl0ptiminer-0.8.3.tar.gz) · 5.1 MB | [HiveOS guide](https://sl0ptiminer.com/guides/hiveos/) |
 
 Not available: [mmpOS](https://sl0ptiminer.com/guides/mmpos/), [RaveOS](https://sl0ptiminer.com/guides/raveos/), [Windows](https://sl0ptiminer.com/guides/windows/) and [SimpleMining OS](https://sl0ptiminer.com/guides/simplemining/).
 
@@ -21,7 +21,7 @@ Every [release](https://github.com/sl0ptiminer/sl0ptiminer/releases) carries `SH
 
 ## Install
 
-On Linux, one command installs Sl0ptiminer and later updates it. The [Linux guide](https://sl0ptiminer.com/guides/linux/) has the same steps by hand, and each mining system has its own [guide](https://sl0ptiminer.com/guides/).
+Read the [licence](https://sl0ptiminer.com/licence/) before you install: every package carries it as `LICENSE.txt`. On Linux, one command installs Sl0ptiminer and later updates it. The [Linux guide](https://sl0ptiminer.com/guides/linux/) has the same steps by hand, and each mining system has its own [guide](https://sl0ptiminer.com/guides/).
 
 ```
 curl -fsSL https://sl0ptiminer.com/install.sh | sh
