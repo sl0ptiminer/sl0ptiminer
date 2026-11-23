@@ -9,9 +9,7 @@ Sl0ptiminer is a cryptocurrency miner. It mines Hoohash for Hoosat (HTN), on x86
 | System | Needs | Package | Guide |
 |---|---|---|---|
 | Linux | x86-64 · glibc 2.31 or newer · mines on NVIDIA cards, and on the processor with AVX2, FMA and BMI2 | [`sloptiminer-0.8.5-linux-x86_64-gnu.tar.gz`](https://github.com/sl0ptiminer/sl0ptiminer/releases/download/v0.8.5/sloptiminer-0.8.5-linux-x86_64-gnu.tar.gz) · 5.1 MB | [Linux guide](https://sl0ptiminer.com/guides/linux/) |
-| Linux, older systems | x86-64 with AVX2, FMA and BMI2 · any Linux · CPU only | Comes in a following release | [Linux guide](https://sl0ptiminer.com/guides/linux/) |
 | Linux on ARM | 64-bit ARM · glibc 2.31 or newer · also mines on NVIDIA cards | [`sloptiminer-0.8.5-linux-aarch64-gnu.tar.gz`](https://github.com/sl0ptiminer/sl0ptiminer/releases/download/v0.8.5/sloptiminer-0.8.5-linux-aarch64-gnu.tar.gz) · 4.9 MB | [Linux guide](https://sl0ptiminer.com/guides/linux/) |
-| Linux on ARM, older systems | 64-bit ARM · any Linux · CPU only | [`sloptiminer-0.8.5-linux-aarch64.tar.gz`](https://github.com/sl0ptiminer/sl0ptiminer/releases/download/v0.8.5/sloptiminer-0.8.5-linux-aarch64.tar.gz) · 4.9 MB | [Linux guide](https://sl0ptiminer.com/guides/linux/) |
 | macOS | Macs with Apple silicon · CPU only | [`sloptiminer-0.8.5-macos-aarch64.tar.gz`](https://github.com/sl0ptiminer/sl0ptiminer/releases/download/v0.8.5/sloptiminer-0.8.5-macos-aarch64.tar.gz) · 4.7 MB | [macOS guide](https://sl0ptiminer.com/guides/mac/) |
 | HiveOS | custom miner package | [`sl0ptiminer-0.8.5.tar.gz`](https://github.com/sl0ptiminer/sl0ptiminer/releases/download/v0.8.5/sl0ptiminer-0.8.5.tar.gz) · 5.1 MB | [HiveOS guide](https://sl0ptiminer.com/guides/hiveos/) |
 
